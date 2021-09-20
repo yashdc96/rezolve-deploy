@@ -10,10 +10,8 @@ import {
   YAxis,
   Legend,
   CartesianGrid,
-  Bar,
-  ResponsiveContainer
+  Bar
 } from "recharts";
-import react from "react";
 
 const App = () => {
 
@@ -25,7 +23,7 @@ const App = () => {
     let newData = []
     apiData.forEach((val) => {
       dataObj.name = val.address.city
-      dataObj.users = val.id * 100000000
+      dataObj.user = val.id * 100000000
       newData.push({ ...dataObj })
     })
     setData(newData)
@@ -39,12 +37,12 @@ const App = () => {
       <ApiCall setApiData={setApiData} />
       <h1>User Types</h1>
       <div className="App">
-        <PieChart width={500} height={500} padding={{ top: '5px' }}>
+        <PieChart width={600} height={500} padding={{ top: '5px' }}>
           <Pie
-            dataKey="users"
+            dataKey="user"
             isAnimationActive={false}
             data={data}
-            cx={200}
+            cx={300}
             cy={200}
             outerRadius={150}
             fill="#8884d8"
@@ -63,7 +61,7 @@ const App = () => {
             bottom: 5,
           }}
           barSize={20}
-          padding={{ top: '5px' }}
+          padding={5}
         >
           <XAxis
             dataKey="name"
@@ -72,9 +70,8 @@ const App = () => {
           />
           <YAxis />
           <Tooltip />
-          <Legend margin={{ top: '2px' }} />
           <CartesianGrid strokeDasharray="3 3" />
-          <Bar dataKey="users" fill="#8884d8" background={{ fill: "#eee" }} />
+          <Bar dataKey="user" fill="#8884d8" background={{ fill: "#eee" }} />
         </BarChart>
       </div>
     </div>
