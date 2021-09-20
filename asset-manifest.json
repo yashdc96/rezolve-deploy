@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a04c62d.chunk.css",
-    "main.js": "/static/js/main.856e5c93.chunk.js",
-    "main.js.map": "/static/js/main.856e5c93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.287927a8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.287927a8.js.map",
-    "static/js/2.de6b66d6.chunk.js": "/static/js/2.de6b66d6.chunk.js",
-    "static/js/2.de6b66d6.chunk.js.map": "/static/js/2.de6b66d6.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0a04c62d.chunk.css.map": "/static/css/main.0a04c62d.chunk.css.map",
-    "static/js/2.de6b66d6.chunk.js.LICENSE.txt": "/static/js/2.de6b66d6.chunk.js.LICENSE.txt"
+    "main.css": "/rezolve-deploy/static/css/main.0a04c62d.chunk.css",
+    "main.js": "/rezolve-deploy/static/js/main.856e5c93.chunk.js",
+    "main.js.map": "/rezolve-deploy/static/js/main.856e5c93.chunk.js.map",
+    "runtime-main.js": "/rezolve-deploy/static/js/runtime-main.26016fae.js",
+    "runtime-main.js.map": "/rezolve-deploy/static/js/runtime-main.26016fae.js.map",
+    "static/js/2.de6b66d6.chunk.js": "/rezolve-deploy/static/js/2.de6b66d6.chunk.js",
+    "static/js/2.de6b66d6.chunk.js.map": "/rezolve-deploy/static/js/2.de6b66d6.chunk.js.map",
+    "index.html": "/rezolve-deploy/index.html",
+    "static/css/main.0a04c62d.chunk.css.map": "/rezolve-deploy/static/css/main.0a04c62d.chunk.css.map",
+    "static/js/2.de6b66d6.chunk.js.LICENSE.txt": "/rezolve-deploy/static/js/2.de6b66d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.287927a8.js",
+    "static/js/runtime-main.26016fae.js",
     "static/js/2.de6b66d6.chunk.js",
     "static/css/main.0a04c62d.chunk.css",
     "static/js/main.856e5c93.chunk.js"
