@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rezolve-deploy/static/css/main.0a04c62d.chunk.css",
-    "main.js": "/rezolve-deploy/static/js/main.856e5c93.chunk.js",
-    "main.js.map": "/rezolve-deploy/static/js/main.856e5c93.chunk.js.map",
+    "main.js": "/rezolve-deploy/static/js/main.e10b554f.chunk.js",
+    "main.js.map": "/rezolve-deploy/static/js/main.e10b554f.chunk.js.map",
     "runtime-main.js": "/rezolve-deploy/static/js/runtime-main.26016fae.js",
     "runtime-main.js.map": "/rezolve-deploy/static/js/runtime-main.26016fae.js.map",
     "static/js/2.de6b66d6.chunk.js": "/rezolve-deploy/static/js/2.de6b66d6.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.26016fae.js",
     "static/js/2.de6b66d6.chunk.js",
     "static/css/main.0a04c62d.chunk.css",
-    "static/js/main.856e5c93.chunk.js"
+    "static/js/main.e10b554f.chunk.js"
   ]
 }
